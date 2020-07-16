@@ -1,5 +1,18 @@
-variable "bucket_name"{
+variable "bucket_name" {
+    default = "wise000up000wednesdays"
 }
-variable "tags"{
+
+variable "rg" {
+    default = "presentation-rg"
+}
+variable "tags" {
     type = map
+     default = {
+        "puropse" = "presentation"
+        "Cloud" = "aws"
+    }
+}
+
+variable "location" {
+    default = "ukwest"
 }
