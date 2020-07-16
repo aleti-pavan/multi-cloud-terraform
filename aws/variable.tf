@@ -6,6 +6,7 @@ variable "tags" {
     type = map
     default = {
         "puropse" = "presentation"
+        "cloud" = "aws"
     }
 }
 
