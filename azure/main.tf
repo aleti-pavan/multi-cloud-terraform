@@ -9,6 +9,5 @@ resource "azurerm_storage_account" "wupw" {
   location                 = azurerm_resource_group.wupw.location
   account_tier             = "Standard"
   account_replication_type = "GRS"
-
   tags = var.tags
 }
