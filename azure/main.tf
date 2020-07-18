@@ -12,7 +12,3 @@ resource "azurerm_storage_account" "wupw" {
 
   tags = var.tags
 }
-
-provider "azurerm" {
-  features {}
-}

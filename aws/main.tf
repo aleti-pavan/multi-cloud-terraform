@@ -3,8 +3,3 @@ resource "aws_s3_bucket" "wupw" {
 
   tags = var.tags
 }
-
-provider "aws"{
-  profile = "terraform"
-  region = var.region
-}
