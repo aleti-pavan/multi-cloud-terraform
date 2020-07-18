@@ -1,22 +1,38 @@
 variable "bucket_name" {
-    default = "wise000up000wednesdays"
+  default = "wise000up000wednesdays"
 }
 
-variable "rg" {
-    default = "presentation-rg"
+variable "azure_rg" {
+  default = "presentation-rg"
 }
 
-variable "project" {
-    default = ""presentation-project-283520""
+variable "gcp_project" {
+  default = "presentation-project-283520"
 }
 variable "tags" {
-    type = map
-     default = {
-        "puropse" = "presentation"
-        "cloud" = "azure"
-    }
+  type = map
+  default = {
+    "puropse" = "presentation"
+    "cloud"   = "azure"
+  }
 }
 
-variable "location" {
-    default = "ukwest"
+variable "azure_location" {
+  default = "ukwest"
+}
+
+variable "aws_region" {
+  default = "eu-west-2"
+}
+
+variable "gcp_region" {
+  default = "europe-west2"
+}
+
+variable "gcp_project_name"{
+    default = "google_project"
+}
+
+variable "gcp_project_id"{
+    default = "google_project-223465"
 }
