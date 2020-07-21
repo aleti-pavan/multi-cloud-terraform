@@ -9,4 +9,4 @@ This repository is to create resources in AWS, Azure and GCP in single project -
 
 ## Access
 
-![access](docs/images/access-multi-cloud-terraform)
+![access](docs/images/access-multi-cloud-terraform.jpeg)
