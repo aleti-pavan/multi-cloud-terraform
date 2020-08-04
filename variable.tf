@@ -29,10 +29,10 @@ variable "gcp_region" {
   default = "europe-west2"
 }
 
-variable "gcp_project_name"{
-    default = "google_project"
+variable "gcp_project_name" {
+  default = "google_project"
 }
 
-variable "gcp_project_id"{
-    default = "google_project-223465"
+variable "gcp_project_id" {
+  default = "google_project-223465"
 }

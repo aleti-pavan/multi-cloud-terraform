@@ -1,18 +1,18 @@
 variable "bucket_name" {
-    default = "wise000up000wednesdays"
+  default = "wise000up000wednesdays"
 }
 
 variable "rg" {
-    default = "presentation-rg"
+  default = "presentation-rg"
 }
 variable "tags" {
-    type = map
-     default = {
-        "puropse" = "presentation"
-        "cloud" = "azure"
-    }
+  type = map
+  default = {
+    "puropse" = "presentation"
+    "cloud"   = "azure"
+  }
 }
 
 variable "location" {
-    default = "ukwest"
+  default = "ukwest"
 }
