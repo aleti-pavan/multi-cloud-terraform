@@ -1,5 +1,6 @@
 provider "google" {
-  credentials = file("~/.gcloud/credentials/presentation-project-283520-22aa56d34112.json")
+  #google service account json file location
+  credentials = file("C:/workspace/gcp.json")
   project     = var.gcp_project
   region      = var.gcp_region
 }
@@ -11,7 +12,7 @@ provider "azurerm" {
 }
 
 provider "aws" {
-  profile = "terraform"
+  # profile = "terraform"
   region  = var.aws_region
 }
 
