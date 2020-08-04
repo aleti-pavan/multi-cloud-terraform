@@ -17,15 +17,19 @@ __Note:__ you must have `aws` and `azure` CLIs configured in the system, otherwi
 
 ## Commands
 
+### Clone
+
+`git clone https://github.com/aleti-pavan/multi-cloud-terraform.git`
+
 ### Create
 
 ```
 
 terraform init
 
-terraform plan
+terraform plan or terraform -out <planfile>
 
-terraform apply -auto-approve
+terraform apply -auto-approve  (or) terraform apply <planfile>
 
 
 ```
